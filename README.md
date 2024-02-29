@@ -10,3 +10,9 @@ For AZ CLI deployments, all configuration has been placed in [1_az_cli_config.sh
 ```
 $ ./1_create_environment_az_cli.sh
 ```
+
+#### **Terraform** 
+For Terraform, the TF deployoment is implemented in [2_deployment.tf](https://github.com/SeryioGonzalez/az_openai_ptus_automated/blob/main/1_az_cli_config.sh "2_deployment.tf"). Modify the entries in this  file for your desired outcome. Then execute the following script as with any other bash script:
+```
+$ ./2_create_environment_terraform.sh
+```
