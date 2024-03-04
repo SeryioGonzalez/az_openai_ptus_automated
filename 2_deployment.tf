@@ -37,6 +37,6 @@ resource "azurerm_cognitive_deployment" "ptu-tf-account-deployment" {
 
   scale {
     type = "ProvisionedManaged"
-    capacity = "100"
+    capacity = 100
   }
 }
